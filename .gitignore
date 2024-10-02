@@ -1,0 +1,51 @@
+# Ignore object files, executables, and libraries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+.vs/
+
+# Ignore C++ debug files
+*.gch
+*.dSYM/
+*.stackdump
+
+# Ignore C++ backup and log files
+*.log
+*.tmp
+*.bak
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio generated files
+.vscode/
+*.vcxproj*
+*.sln
+*.ipch/
+*.pch
+*.obj/
+*.tlog/
+*.user
+*.db
+
+# Ignore Code::Blocks generated files
+*.layout
+*.depend
+
+# Ignore QtCreator generated files
+*.pro.user
+*.qmake.stash
+
+# Ignore compile_commands.json (commonly generated for language servers)
+compile_commands.json
+
+# Ignore directories for build artifacts
+build/
+bin/
